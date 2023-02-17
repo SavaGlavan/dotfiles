@@ -1,0 +1,1 @@
+while printf "%s %s %s %s" "$(light -G)% brightness |" "$(cat /sys/class/power_supply/BAT0/status)" "$(cat /sys/class/power_supply/BAT0/capacity)% |" "$(date +'%Y-%m-%d %H:%M:%S')" ; do sleep 1; done
