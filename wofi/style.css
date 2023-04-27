@@ -1,39 +1,39 @@
-#outer-box {
-	border: 2px solid #d5d8da;
-	border-radius: 0px;
-}
-
 #window {
-	background-color: #323232;
+	background-color: #191919;
 }
 
 #text {
 	font-family: "Input Sans Narrow";
-	color: #d5d8da;
+	color: #323232;
 }
 
 #text:selected {
-	color: #16161c;
+	color: #d5d8da;
 }
 
 #input {
+	box-shadow: none;
 	margin: 4px;
-	border: 2px solid #d5d8da;
+	border: none;
+	/*border: 2px solid #323232;*/
 	border-radius: 4px;
-	background-color: #323232;
+	background-color: #191919;
+	color: #d5d8da;
 }
-
+/*
 #scroll {
 	margin: 2px 2px 3px 2px;
 }
-
+*/
 #entry {
 	padding: 2px 4px;
 	margin: 1px 2px;
 }
 
+
 #entry:selected {
-	background-color: #d5d8da;
-	border-radius: 4px;
+	all: unset;
+	color: #d5d8da;
+	margin: 1px 2px;
 }
 
