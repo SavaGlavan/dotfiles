@@ -64,7 +64,7 @@ output * bg ~/wallpapers/tile_1.png tile
 ### Graphics
 
 # Colours
-set $clr_background #191919
+set $clr_background #161616
 set $clr_light #d5d8da
 set $clr_dark #323232
 set $clr_accent #e95678
@@ -244,9 +244,9 @@ bar {
     height 22
     colors {
         # Text color of status bar
-        statusline #d5d8da
+        statusline $clr_light
         # Background of status bar
-        background #191919
+        background $clr_background
 
         focused_workspace $clr_background $clr_background $clr_light
         active_workspace $clr_background $clr_background $clr_light
